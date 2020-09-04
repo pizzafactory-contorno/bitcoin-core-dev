@@ -4,7 +4,7 @@ FROM ${BASE_IMAGE}
 USER root
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \
-      build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 bear \
+      build-essential gdb libtool autotools-dev automake pkg-config bsdmainutils python3 bear \
       libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-test-dev libboost-thread-dev \
       libminiupnpc-dev \
       libzmq3-dev \
