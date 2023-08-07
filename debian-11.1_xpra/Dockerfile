@@ -1,5 +1,4 @@
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE}
+FROM docker.io/pizzafactory0contorno/piatto-quadrato:debian-11.1_xpra@sha256:dc25b71e675cce3bbcc9d012abd8512eb2163adade1f98c591cacfa4c7c8705f
 
 USER root
 RUN apt-get update && apt-get upgrade -y && \
