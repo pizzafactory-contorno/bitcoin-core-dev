@@ -1,4 +1,4 @@
-FROM docker.io/pizzafactory0contorno/piatto-quadrato:debian-11.1_xpra@sha256:dc25b71e675cce3bbcc9d012abd8512eb2163adade1f98c591cacfa4c7c8705f
+FROM docker.io/pizzafactory0contorno/piatto-quadrato:debian-11.1_xpra@sha256:40f05a285d6c13474448137b743ed827e9e394e58131afe85fb488df12233fd6
 
 USER root
 RUN apt-get update && apt-get upgrade -y && \
